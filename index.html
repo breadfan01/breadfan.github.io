@@ -4,25 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | breadfan.xyz</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
-    <div class="flex-container" id="top">
-        <div>1</div>
+<body style="background:lightgrey">
+
+    <div class="container-fluid" id="header" style="background:peru">
+        <div class="row">
+            <div class="col-auto col-sm-1">
+                &nbsp;
+            </div>
+            <div class="col-auto">
+                &nbsp;
+            </div>
+        </div>        
     </div>
-    <div class="flex-container" id="header">
-        <div>Header</div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">breadfan.xyz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/breadfan01/">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Professional</a></li>
+                            <li><a class="dropdown-item" href="#">Development</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Personal</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Projects (Coming Soon)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid" id="content" style="background:lightgrey">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-6">
+                 <div class="card opacity-75 border-0 m-2 p-3">
+                    <div class="card-body">
+                        <div class="box">
+                            <p>Hi, and welcome to my page.</p>
+                            <p>Things are still very much under construction here, as I'm sure you'll realise soon enough (if you haven't already!)</p>
+                            <p>I've only got the bare bones layout created.</p>                            
+                            <p>The idea of this is first and foremost a place to do a bit of basic web dev experimentation, and I figure it might as well have some use to me.</p>
+                            <p>I'm not sure it'll be interesting to you, but you're most welcome to check it out. I'll always be open to constructive feedback on my technical endeavours.</p>
+                            <br>
+                            <p>~Nic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>        
     </div>
-    <div class="flex-container" id="nav">
-        <div>Link 1</div>
-        <div>Link 2</div>
-        <div>Link 3</div>
+ 
+    
+    <div class="container-fluid" id="bottom-menu" style="background:lightgrey">
+        <div class="border border-0 p-3">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-3">
+                    <div class="container">
+                        <div class="card">
+                            <div class="card-header opacity-100 h5" style="background: peru;">
+                                Social Links
+                            </div>
+                            <div class="card-body align-self-center">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li>Instagram</li>
+                                    <li>LinkedIn</li>
+                                    <li>YouTube</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="container">
+                        <div class="card">
+                            <div class="card-header opacity-100 h5" style="background: peru;">
+                                Links
+                            </div>
+                            <div class="card-body align-self-center">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li>Home</li>
+                                    <li>About</li>
+                                    <li><a href="https://github.com/breadfan01/">GitHub</a></li>
+                                    <li>Project #1</li>
+                                    <li>Project #2</li>
+                                    <li>Contact</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+                <div class="col-3">
+                    <div class="container">
+                        <div class="card">
+                            <div class="card-header h5" style="background: peru;">
+                                About this site
+                            </div>
+                            <div class="card-body">
+                                I'll update this when I've got a little more to talk about!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
     </div>
-    <div class="flex-container" id="content">
-        <div>Main Content</div>
+
+    <div class="container-fluid position-fixed bottom-0 start-0" id="footer" style="background:peru">
+        <div class="row">
+            <div class="col-12">
+                &nbsp;
+            </div>
+        </div>        
     </div>
-    <div class="flex-container" id="footer">
-        <div>Footer</div>
-    </div>
+
 </body>
 </html>
